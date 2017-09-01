@@ -1,0 +1,2 @@
+Cartão Trello: <LINK_PARA_CARTÃO>
+Descrição: <DESCRIÇÃO_SUSSINTA_DAS_ALTERAÇÕES>
