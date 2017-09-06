@@ -1,2 +1,2 @@
-Cartão Trello: <LINK_PARA_CARTÃO>
+Issue: < #1 (EXEMPLO) >
 Descrição: <DESCRIÇÃO_SUSSINTA_DAS_ALTERAÇÕES>
