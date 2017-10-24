@@ -35,5 +35,12 @@ public final class Configuracao {
 			
 			resposta.status(excecao.getHttpCode());
 		});
+
+		/**
+		 * Mapea pasta public dentro de resoruces para servir
+		 * arquivos estáticos.
+		 */
+		staticFiles.location("/public");
+
 	}
 }
