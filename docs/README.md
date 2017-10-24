@@ -1,7 +1,9 @@
 # portal-da-transparencia
 
 # Ferramentas
-  [Slack](https://fabrica-ufg.slack.com/messages) - Comunicação
+  [WhatsApp - Geral](https://chat.whatsapp.com/74fk421ENCnBxwz1ycuaHi) - Comunicação
+  
+  [WhatsApp - Gestão](https://chat.whatsapp.com/1FIT1kBEcRW6EQNFJ4N2lF) - Comunicação do grupo Gestão
   
   [Github](https://github.com/fabrica-ufg-2017-2/portal-da-transparencia/) - Código
   
