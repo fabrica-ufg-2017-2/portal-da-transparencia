@@ -41,5 +41,6 @@ public final class Configuracao {
 		 * arquivos estáticos.
 		 */
 		staticFiles.location("/public");
+
 	}
 }
