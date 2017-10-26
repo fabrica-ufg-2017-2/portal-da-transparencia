@@ -3,7 +3,15 @@
 
 # Portal da transparencia
 
-# Ferramentas
+## Executando o projeto
+
+1. Instale o [Docker-Compose](https://docs.docker.com/compose/install/)
+1. Clone o projeto
+1. Entre na pasta raiz do projeto
+1. Abra o terminal e execute: ``` docker-compose up ```
+1. Abra no navegador: http://localhost:4567/
+
+## Ferramentas
   [Slack](https://fabrica-ufg.slack.com/messages) - Comunicação
   
   [Github](https://github.com/fabrica-ufg-2017-2/portal-da-transparencia/) - Código
