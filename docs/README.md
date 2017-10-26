@@ -1,4 +1,6 @@
-# portal-da-transparencia
+[![Build Status](https://travis-ci.org/fabrica-ufg-2017-2/portal-da-transparencia.svg?branch=master)](https://travis-ci.org/fabrica-ufg-2017-2/portal-da-transparencia)
+
+# Portal da transparencia
 
 # Ferramentas
   [Slack](https://fabrica-ufg.slack.com/messages) - Comunicação
