@@ -1,0 +1,2 @@
+# portal-da-transparencia
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6cc3ad9d3bfd445c9fd20fe2d14d0f17)](https://www.codacy.com/app/fabrica-ufg-2017-2/portal-da-transparencia?utm_source=github.com&utm_medium=referral&utm_content=fabrica-ufg-2017-2/portal-da-transparencia&utm_campaign=badger)
