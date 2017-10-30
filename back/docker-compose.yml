@@ -3,7 +3,7 @@ services:
   api:
     image: "maven:3.5.0-jdk-8-alpine"
     volumes:
-      - "./fabrica/:/usr/src/mymaven"
+      - "./portal-da-transparencia/:/usr/src/mymaven"
     working_dir: "/usr/src/mymaven"
     command: bash -c "mvn package && java -jar target/fabrica-jar-with-dependencies.jar"
     depends_on:
