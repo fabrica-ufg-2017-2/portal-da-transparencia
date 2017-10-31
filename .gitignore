@@ -1,2 +1,5 @@
 #Docker
 /db/
+
+#Travis
+.travis.yml
