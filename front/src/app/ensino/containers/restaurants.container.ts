@@ -3,7 +3,7 @@ import { RestauranteService } from '../services/restaurante.service';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
-          selector: 'inf-lista-restaurants-container',
+      selector: 'inf-lista-restaurants-container',
   template: `<inf-lista-restaurants [restaurants]="restaurants"></inf-lista-restaurants>`
 })
 export class ListaRestaurantsContainerComponent implements OnInit {
