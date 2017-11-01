@@ -5,7 +5,7 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
 
 const routes: Routes = [
   {
-    path: 'pesquisa',
+    path: '',
     component: PesquisaComponent
   }
 ];
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class PesquisaRoutingModule { }
+export class PesquisaRoutingModule {}

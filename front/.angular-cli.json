@@ -7,10 +7,7 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [
-        "assets",
-        "favicon.ico"
-      ],
+      "assets": ["assets", "favicon.ico"],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -25,7 +22,9 @@
         "../node_modules/toastr/toastr.scss"
       ],
       "scripts": [
-        "../node_modules/toastr/toastr.js"  
+        "../node_modules/jquery/dist/jquery.slim.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/toastr/toastr.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

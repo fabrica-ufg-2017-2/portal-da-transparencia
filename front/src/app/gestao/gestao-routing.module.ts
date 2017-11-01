@@ -5,7 +5,7 @@ import { GestaoComponent } from './gestao/gestao.component';
 
 const routes: Routes = [
   {
-    path: 'gestao',
+    path: '',
     component: GestaoComponent
   }
 ];
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class GestaoRoutingModule { }
+export class GestaoRoutingModule {}
