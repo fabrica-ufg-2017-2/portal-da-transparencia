@@ -1,9 +1,9 @@
-package fabrica.controller;
+package fabrica.view.api;
 
 import static spark.Spark.*;
 
-import fabrica.dto.ExcecaoNegocioDTO;
-import fabrica.model.dominio.ExcecaoNegocio;
+import fabrica.controller.service.dto.ExcecaoNegocioDTO;
+import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
 
 /**
@@ -14,7 +14,7 @@ import fabrica.util.UtilArgs;
  *          Classe para configuração de filtros de requisições, controle de
  *          exeções e demais aspectos que seja inerentes ao webservice.
  */
-public final class Configuracao {
+public final class WebServiceConfiguracao {
 	
 	private static final SerializadorJson json = new SerializadorJson();
 	

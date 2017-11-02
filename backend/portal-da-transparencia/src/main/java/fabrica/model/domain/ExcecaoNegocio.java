@@ -1,4 +1,4 @@
-package fabrica.model.dominio;
+package fabrica.model.domain;
 
 public class ExcecaoNegocio extends RuntimeException {
 	

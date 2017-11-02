@@ -1,6 +1,6 @@
-package fabrica.dto;
+package fabrica.controller.service.dto;
 
-import fabrica.model.dominio.Tarefa;
+import fabrica.model.domain.Tarefa;
 
 /**
  * 

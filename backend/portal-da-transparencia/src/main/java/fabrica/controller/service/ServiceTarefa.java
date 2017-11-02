@@ -1,13 +1,13 @@
-package fabrica.model.servico;
+package fabrica.controller.service;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import fabrica.dto.TarefaDTO;
+import fabrica.controller.service.dto.TarefaDTO;
 import fabrica.model.dao.GenericDAO.BlocoAtualizar;
 import fabrica.model.dao.TarefaDAO;
 import fabrica.model.dao.TransacaoHibernate;
-import fabrica.model.dominio.Tarefa;
+import fabrica.model.domain.Tarefa;
 
 /**
  * 
@@ -18,7 +18,7 @@ import fabrica.model.dominio.Tarefa;
  *          entidade {@link Tarefa}. Aqui podemos ver todas as funcionalidades
  *          relacionadas com Tarefa.
  */
-public class ServicoTarefa {
+public class ServiceTarefa {
 
 	private final TarefaDAO tarefaDAO = new TarefaDAO(new TransacaoHibernate(),
 			Tarefa.class);

@@ -1,4 +1,4 @@
-package fabrica.dto;
+package fabrica.controller.service.dto;
 
 /**
  * 
@@ -6,7 +6,7 @@ package fabrica.dto;
  * @version 1.0.0
  * 
  * @param <T>
- *            - Entidade do modelo de dominio que deseja-se passar para o DTO.
+ *            - Entidade do modelo de domain que deseja-se passar para o DTO.
  */
 public abstract class DTO<T> {
 
