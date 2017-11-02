@@ -1,4 +1,4 @@
-package fabrica.controller.service.dto;
+package fabrica.controller.dto;
 
 /**
  * 

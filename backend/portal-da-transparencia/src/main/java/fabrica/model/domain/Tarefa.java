@@ -33,7 +33,7 @@ public class Tarefa extends Entidade {
 	 * @param descricaoP
 	 *            - Descricao da task.
 	 */
-	public Tarefa NovaTarefa(final String tituloP, final String descricaoP) {
+	public Tarefa novaTarefa(final String tituloP, final String descricaoP) {
 		
 		if (tituloP == null || tituloP.length() > 30)
 			throw new ExcecaoNegocio(1, "Titulo inválido",

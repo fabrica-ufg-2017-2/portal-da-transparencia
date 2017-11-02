@@ -3,7 +3,7 @@ package fabrica.controller.service;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import fabrica.controller.service.dto.TarefaDTO;
+import fabrica.controller.dto.TarefaDTO;
 import fabrica.model.dao.GenericDAO.BlocoAtualizar;
 import fabrica.model.dao.TarefaDAO;
 import fabrica.model.dao.TransacaoHibernate;
@@ -24,7 +24,7 @@ public class ServiceTarefa {
 			Tarefa.class);
 
 	public TarefaDTO criarTarefa(final TarefaDTO tarefaDTO) {
-		Tarefa tarefa = new Tarefa().NovaTarefa(tarefaDTO.getTitulo(),
+		Tarefa tarefa = new Tarefa().novaTarefa(tarefaDTO.getTitulo(),
 				tarefaDTO.getDescricao());
 		tarefaDAO.criar(tarefa);
 		return tarefaDTO;
@@ -37,7 +37,7 @@ public class ServiceTarefa {
 
 	public TarefaDTO atualizarTarefa(final TarefaDTO tarefaDTO) {
 		BlocoAtualizar<Tarefa> atualizacao = (registro) -> {
-			return registro.NovaTarefa(tarefaDTO.getTitulo(),
+			return registro.novaTarefa(tarefaDTO.getTitulo(),
 					tarefaDTO.getDescricao());
 		};
 		tarefaDAO.atualizar(atualizacao, tarefaDTO.getId());

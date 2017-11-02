@@ -2,7 +2,7 @@ package fabrica.view.api;
 
 import static spark.Spark.*;
 
-import fabrica.controller.service.dto.TarefaDTO;
+import fabrica.controller.dto.TarefaDTO;
 import fabrica.controller.service.ServiceTarefa;
 
 /**

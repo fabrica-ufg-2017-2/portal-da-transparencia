@@ -2,7 +2,7 @@ package fabrica.view.api;
 
 import static spark.Spark.*;
 
-import fabrica.controller.service.dto.ExcecaoNegocioDTO;
+import fabrica.controller.dto.ExcecaoNegocioDTO;
 import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
 
