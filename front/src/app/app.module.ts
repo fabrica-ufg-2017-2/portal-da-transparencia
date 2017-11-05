@@ -13,12 +13,16 @@ import { ExtensaoModule } from './extensao/extensao.module';
 import { GestaoModule } from './gestao/gestao.module';
 import { PesquisaModule } from './pesquisa/pesquisa.module';
 import { AppRoutingModule } from './app-routing.module';
+import { LoadingComponent } from './shared/loading/loading.component';
+import { ImageComponent } from './shared/image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoadingComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
