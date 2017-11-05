@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PesquisaComponent } from './pesquisa/pesquisa.component';
+import { PesquisaComponent } from './screens/pesquisa/pesquisa.component';
 
 const routes: Routes = [
   {
