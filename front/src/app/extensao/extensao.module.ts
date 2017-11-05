@@ -6,12 +6,9 @@ import { ExtensaoRoutingModule } from './extensao-routing.module';
 import { ExtensaoService } from './shared/extensao.service';
 
 @NgModule({
-  declarations: [ExtensaoComponent],  
-  imports: [
-    CommonModule,
-    ExtensaoRoutingModule
-  ],
+  declarations: [ExtensaoComponent],
+  imports: [CommonModule, ExtensaoRoutingModule],
   exports: [ExtensaoComponent],
   providers: [ExtensaoService]
 })
-export class ExtensaoModule { }
+export class ExtensaoModule {}

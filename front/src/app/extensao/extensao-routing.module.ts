@@ -5,7 +5,7 @@ import { ExtensaoComponent } from './extensao/extensao.component';
 
 const routes: Routes = [
   {
-    path: 'extensao',
+    path: '',
     component: ExtensaoComponent
   }
 ];
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ExtensaoRoutingModule { }
+export class ExtensaoRoutingModule {}

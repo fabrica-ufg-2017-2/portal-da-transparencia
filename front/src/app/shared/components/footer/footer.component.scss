@@ -1,0 +1,47 @@
+// :host {
+//   width: 100%;
+//   height: 10em;
+//   background-color: #343a40;
+// }
+
+// .footer {
+//   background-color: #343a40;
+//   text-align: center;
+//   align-items: center;
+//   margin-top: 2em;
+//   .texto {
+//       display: grid;
+//       color: white;
+//       .instituto {
+//           font-size: 22px;
+//       }
+//   }
+// }
+
+.footer {
+  background-color: #343a40;
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  .texto {
+    display: grid;
+    color: white;
+    .instituto {
+      font-size: 22px;
+    }
+  }
+}
+
+// @media (max-width: 775px) {
+//   img {
+//       width: 3em;
+//   }
+//   .texto {
+//       font-size: x-small;
+//   }
+// }
+
+// @media (max-width: 580px) {
+//   :host {
+//       height: 15em;
+//   }
+// }

@@ -6,12 +6,9 @@ import { GestaoRoutingModule } from './gestao-routing.module';
 import { GestaoService } from './shared/gestao.service';
 
 @NgModule({
-  declarations: [GestaoComponent],  
-  imports: [
-    CommonModule,
-    GestaoRoutingModule
-  ],
+  declarations: [GestaoComponent],
+  imports: [CommonModule, GestaoRoutingModule],
   exports: [GestaoComponent],
   providers: [GestaoService]
 })
-export class GestaoModule { }
+export class GestaoModule {}
