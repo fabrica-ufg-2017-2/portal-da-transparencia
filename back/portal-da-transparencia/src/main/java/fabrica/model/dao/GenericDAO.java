@@ -21,7 +21,7 @@ import javax.persistence.criteria.Root;
  *          Classe genérica afim de mapear as operações de CRUD de uma entidade
  *          qualquer do sistema.
  */
-public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
+public abstract class GenericDAO<T extends Entidade, I extends Serializable> {
 
 	/**
 	 * Fornecedor de EntityManager.
@@ -107,7 +107,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 *          registro.
 	 * @param id - Id do registro.
 	 */
-	public void  atualizar(BlocoAtualizar<T> b, ID id) {
+	public void  atualizar(BlocoAtualizar<T> b, I id) {
 		trs.tx((em) -> {
 			T registro = em.find(clazz, id);
 			b.atualizacao(registro);
@@ -122,7 +122,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 * @param em - Gerenciador de entidade para agrupar operacoes
 	 *           em uma transação só.
 	 */
-	public void atualizar(BlocoAtualizar<T> b, ID id, EntityManager em) {
+	public void atualizar(BlocoAtualizar<T> b, I id, EntityManager em) {
 		T registro = em.find(clazz, id);
 		b.atualizacao(registro);
 	}
@@ -134,7 +134,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 * @return - Entidade.
 	 */
 	@SuppressWarnings("unchecked")
-	public T buscaUm(ID id) {
+	public T buscaUm(I id) {
 		return (T) trs.txr((em) -> em.find(clazz, id));
 	}
 
@@ -145,7 +145,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 *           em uma transação só.
 	 * @return - Entidade.
 	 */
-	public T buscaUm(ID id, EntityManager em) { return em.find(clazz, id);}
+	public T buscaUm(I id, EntityManager em) { return em.find(clazz, id);}
 
 	/**
 	 * 
@@ -153,11 +153,8 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 *            - Id único da entidade.
 	 * @return True caso exista registro False se não existir.
 	 */
-	public boolean existe(ID id) {
-		if (buscaUm(id) != null) {
-			return true;
-		}
-		return false;
+	public boolean existe(I id) {
+		return buscaUm(id) != null;
 	}
 
 	/**
@@ -167,11 +164,8 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 *           em uma transação só.
 	 * @return True caso exista registro False se não existir.
 	 */
-	public boolean existe(ID id, EntityManager em) {
-		if (buscaUm(id, em) != null) {
-			return true;
-		}
-		return false;
+	public boolean existe(I id, EntityManager em) {
+		return buscaUm(id, em) != null;
 	}
 
 	/**
@@ -256,7 +250,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 * @param id
 	 *            - Id da entidade que deseja deletar.
 	 */
-	public void deletar(ID id) {
+	public void deletar(I id) {
 		trs.tx((em) -> {
 			em.remove(em.find(clazz, id));
 		});
@@ -268,7 +262,7 @@ public abstract class GenericDAO<T extends Entidade, ID extends Serializable> {
 	 * @param em - Gerenciador de entidade para agrupar operacoes
 	 *           em uma transação só.
 	 */
-	public void deletar(ID id, EntityManager em) {
+	public void deletar(I id, EntityManager em) {
 		em.remove(em.find(clazz,id));
 	}
 
