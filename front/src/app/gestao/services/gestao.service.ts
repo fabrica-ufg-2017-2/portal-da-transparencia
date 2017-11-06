@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class PesquisaService {
-
-  constructor() { }
-
+export class GestaoService {
+  constructor() {}
 }
