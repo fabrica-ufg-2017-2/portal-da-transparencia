@@ -3,8 +3,8 @@ package fabrica;
 
 import org.apache.log4j.PropertyConfigurator;
 
-import fabrica.controller.Configuracao;
-import fabrica.controller.ControllerTarefa;
+import fabrica.view.api.WebServiceConfiguracao;
+import fabrica.view.api.ApiTarefa;
 
 /**
  * 
@@ -23,11 +23,11 @@ public class Principal {
 		/**
 		 * Configuração de funcionamento das APIs Spark.
 		 */
-		Configuracao.config(args);
+		WebServiceConfiguracao.config(args);
 		
 		/**
 		 * Controllers que estrão ativos.
 		 */
-	    ControllerTarefa.api(args);
+	    ApiTarefa.api(args);
 	}
 }
