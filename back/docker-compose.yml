@@ -1,0 +1,17 @@
+version: '3'
+services:
+  api:
+    image: "maven:3.5.0-jdk-8-alpine"
+    volumes:
+      - "./portal-da-transparencia/:/usr/src/mymaven"
+    working_dir: "/usr/src/mymaven"
+    command: bash -c "mvn package && java -jar target/fabrica-jar-with-dependencies.jar"
+    depends_on:
+      - db
+  db:
+    image: "mysql:5.5.57"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: portaltransparencia
+    volumes:
+      - "./db:/var/lib/mysql"

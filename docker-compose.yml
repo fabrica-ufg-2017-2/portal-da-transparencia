@@ -1,0 +1,28 @@
+version: '3'
+services:
+  back:
+    image: "maven:3.5.0-jdk-8-alpine"
+    volumes:
+      - "./back/portal-da-transparencia:/usr/src/"
+      - "./front/dist/:/usr/src/src/main/resources/public/"
+    working_dir: "/usr/src/"
+    command: bash -c "mvn package && java -jar target/fabrica-jar-with-dependencies.jar DNSBD:db"
+    depends_on:
+      - db
+      - front
+    ports:
+      - 80:80
+      - 4567:4567
+  front:   
+    build: "./front/"
+    volumes: 
+      - "./front/:/usr/src/"
+    working_dir: "/usr/src/"
+    command: bash -c "npm install && ng build"
+  db:
+    image: "mysql:5.5.57"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: portaltransparencia
+    volumes:
+      - "./db:/var/lib/mysql"

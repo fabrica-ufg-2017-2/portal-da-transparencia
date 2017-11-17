@@ -1,17 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EnsinoComponent } from './ensino/ensino.component';
+import { EnsinoScreenComponent } from './screens/ensino/ensino.component';
 import { EnsinoRoutingModule } from './ensino-routing.module';
-import { EnsinoService } from './shared/ensino.service';
+import { ListaRestaurantsComponent } from './components/lista-restaurants/lista-restaurants.component';
+import { ItemRestaurantComponent } from './components/lista-restaurants/item-restaurant/item-restaurant.component';
+import { RestauranteService } from './services/restaurante.service';
+import { ListaRestaurantsContainerComponent } from './containers/restaurants.container';
 
 @NgModule({
-  declarations: [EnsinoComponent],
-  imports: [
-    CommonModule,
-    EnsinoRoutingModule
+  declarations: [
+    EnsinoScreenComponent,
+    ListaRestaurantsComponent,
+    ItemRestaurantComponent,
+    ListaRestaurantsContainerComponent
   ],
-  exports: [EnsinoComponent],
-  providers: [EnsinoService]
+  imports: [CommonModule, EnsinoRoutingModule],
+  exports: [EnsinoScreenComponent],
+  providers: [RestauranteService]
 })
-export class EnsinoModule { }
+export class EnsinoModule {}
