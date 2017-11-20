@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 import fabrica.controller.dto.extensao.ProjetoExtensaoDTO;
-import fabrica.model.dao.GenericDAO.BlocoAtualizar;
 import fabrica.model.dao.extensao.ProjetoExtensaoDAO;
 import fabrica.model.dao.TransacaoHibernate;
 import fabrica.model.domain.extensao.ProjetoExtensao;
