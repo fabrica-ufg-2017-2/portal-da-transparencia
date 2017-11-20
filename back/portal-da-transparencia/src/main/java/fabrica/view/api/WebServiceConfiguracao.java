@@ -6,6 +6,7 @@ import fabrica.controller.dto.ExcecaoNegocioDTO;
 import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
 
+
 /**
  * 
  * @author gabriel
@@ -25,7 +26,14 @@ public final class WebServiceConfiguracao {
 		 * em memoria.
 		 */
 		UtilArgs.configura(args);
-		
+
+		/**
+		 * Cofigura porta caso porta passada
+		 * na configuração senão mantém default.
+		 */
+		port(UtilArgs.getParametros().containsKey(UtilArgs.Args.PORTAWS)
+				? Integer.valueOf(UtilArgs.getParametros().get(UtilArgs.Args.PORTAWS)) : 4567);
+
 		/**
 		 * Tratamento genérico de exceções.
 		 */

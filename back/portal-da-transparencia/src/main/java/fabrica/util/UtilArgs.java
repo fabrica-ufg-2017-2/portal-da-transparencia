@@ -62,12 +62,19 @@ public final class UtilArgs {
 		/*
 		 * Usúario do banco de dados.
 		 */
-		USUBD("USUBD:"), 
+		USUBD("USUBD:"),
 		
 		/**
 		 * Senha do banco de dados.
 		 */
-		SENHBD("SENHBD:");
+		SENHBD("SENHBD:"),
+
+		/**
+		 * Porta do serviro que podeŕá ser passada
+		 * como parâmetro.
+		 */
+
+		PORTAWS("PORTAWS:");
 		
 		private final String arg;
 		
