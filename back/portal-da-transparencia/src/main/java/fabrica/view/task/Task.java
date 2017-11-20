@@ -1,15 +1,16 @@
-package fabrica.tarefa;
+package fabrica.view.task;
 
+import fabrica.view.api.WebServiceConfiguracao;
 import org.apache.log4j.Logger;
 
 /**
  * @author gabriel
  * @version 1.0.0
- * @see fabrica.controller.Configuracao
+ * @see WebServiceConfiguracao
  */
-public abstract class Tarefa implements Runnable {
+public abstract class Task implements Runnable {
 
-    //Intermitencia entre as execuções da tarefa.
+    //Intermitencia entre as execuções da task.
     protected Long intermitencia;
 
     //Tarefa a ser executada.
@@ -25,7 +26,7 @@ public abstract class Tarefa implements Runnable {
                 Thread.sleep(intermitencia);
             }
         } catch (Exception e) {
-            LOG.error("Erro ao executar tarefa: " + getClass().getSimpleName()
+            LOG.error("Erro ao executar task: " + getClass().getSimpleName()
              + "\nException: " + e.getMessage());
         }
     }

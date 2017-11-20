@@ -1,4 +1,4 @@
-package fabrica.controller;
+package fabrica.view.api;
 
 import com.google.gson.Gson;
 
