@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PesquisaScreenComponent } from './screens/pesquisa/pesquisa.component';
 import { PesquisaDashboardScreenComponent } from './screens/pesquisa-dashboard/pesquisa-dashboard.component';
 import { ProjetosScreenComponent } from './screens/projetos/projetos.component';
+import { ProjetoScreenComponent } from './screens/projeto/projeto.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
       {
         path: 'projetos',
         component: ProjetosScreenComponent
+      },
+      {
+        path: 'projeto/:id',
+        component: ProjetoScreenComponent
       }
     ]
   }

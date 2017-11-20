@@ -1,5 +1,8 @@
+import { ProjetoScreenComponent } from './screens/projeto/projeto.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { ChartsModule } from 'ng2-charts';
 
 import { PesquisaScreenComponent } from './screens/pesquisa/pesquisa.component';
 import { ProjetosScreenComponent } from './screens/projetos/projetos.component';
@@ -16,6 +19,7 @@ import { LeftSideBarComponent } from './components/left-side-bar/left-side-bar.c
 import { PesquisaDashboardScreenComponent } from './screens/pesquisa-dashboard/pesquisa-dashboard.component';
 
 import { PaginationModule } from './../shared/components/pagination/pagination.module';
+import { GraficoSituacaoProjetosComponent } from './components/grafico-situacao-projetos/grafico-situacao-projetos.component';
 
 @NgModule({
   declarations: [
@@ -25,9 +29,16 @@ import { PaginationModule } from './../shared/components/pagination/pagination.m
     ProjetoComponent,
     ProjetosContainerComponent,
     LeftSideBarComponent,
-    PesquisaDashboardScreenComponent
+    PesquisaDashboardScreenComponent,
+    GraficoSituacaoProjetosComponent,
+    ProjetoScreenComponent
   ],
-  imports: [CommonModule, PesquisaRoutingModule, PaginationModule],
+  imports: [
+    CommonModule,
+    ChartsModule,
+    PesquisaRoutingModule,
+    PaginationModule
+  ],
   exports: [PesquisaScreenComponent],
   providers: [PesquisaService, ProjetosService]
 })
