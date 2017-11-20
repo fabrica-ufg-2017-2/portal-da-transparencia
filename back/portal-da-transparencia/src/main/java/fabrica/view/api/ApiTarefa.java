@@ -1,46 +1,46 @@
-package fabrica.controller;
+package fabrica.view.api;
 
 import static spark.Spark.*;
 
-import fabrica.dto.TarefaDTO;
-import fabrica.model.servico.ServicoTarefa;
+import fabrica.controller.dto.TarefaDTO;
+import fabrica.controller.service.ServiceTarefa;
 
 /**
  * 
  * @author  gabriel
  * @version 1.0.0
  * 
- *  Controller da API para operações de CRUD com tarefa.
+ *  Api da API para operações de CRUD com task.
  */
-public class ControllerTarefa implements Controller {
+public class ApiTarefa implements Api {
 	
 	private static final SerializadorJson json = new SerializadorJson();
 	
 	/**
 	 * Classe de serviço que contém todas as dependências necessárias
-	 * para as operações com a entidade tarefa.
+	 * para as operações com a entidade task.
 	 */
-	private static final ServicoTarefa servico = new ServicoTarefa();
+	private static final ServiceTarefa servico = new ServiceTarefa();
 	
 	/**
 	 * @param args - Args do programa principal.
-	 * Metodo com todas as APIs que este controller define.
+	 * Metodo com todas as APIs que este view define.
 	 */
 	public static void api(String[] args) {
-		post("/tarefa", "application/json", (request, response) -> {
+		post("/task", "application/json", (request, response) -> {
 			return servico.criarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
 						
 		}, json);
 		
-		get("/tarefa","application/json", (request, response) -> {
+		get("/task","application/json", (request, response) -> {
 			return servico.buscarTodas();
 		}, json);
 		
-		delete("/tarefa",(request, response) -> {
+		delete("/task",(request, response) -> {
 			return servico.deletarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
 		});
 		
-		put("/tarefa","application/json", (request, response) -> {
+		put("/task","application/json", (request, response) -> {
 			return servico.atualizarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
 		}, json);
 	}

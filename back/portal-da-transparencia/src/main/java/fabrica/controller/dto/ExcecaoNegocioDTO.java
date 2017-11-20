@@ -1,7 +1,7 @@
-package fabrica.dto;
+package fabrica.controller.dto;
 
 
-import fabrica.model.dominio.ExcecaoNegocio;
+import fabrica.model.domain.ExcecaoNegocio;
 
 /**
  * 

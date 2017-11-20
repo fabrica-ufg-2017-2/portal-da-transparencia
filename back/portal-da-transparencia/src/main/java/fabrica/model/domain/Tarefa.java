@@ -1,4 +1,4 @@
-package fabrica.model.dominio;
+package fabrica.model.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -29,19 +29,19 @@ public class Tarefa extends Entidade {
 	/**
 	 * 
 	 * @param tituloP
-	 *            - Titutlo da tarefa.
+	 *            - Titutlo da task.
 	 * @param descricaoP
-	 *            - Descricao da tarefa.
+	 *            - Descricao da task.
 	 */
-	public Tarefa NovaTarefa(final String tituloP, final String descricaoP) {
+	public Tarefa novaTarefa(final String tituloP, final String descricaoP) {
 		
 		if (tituloP == null || tituloP.length() > 30)
 			throw new ExcecaoNegocio(1, "Titulo inválido",
-					"Título da tarefa nulo ou maior que 30 caracteres.", 400);
+					"Título da task nulo ou maior que 30 caracteres.", 400);
 		
 		if (descricaoP == null || descricaoP.length() > 1000)
 			throw new ExcecaoNegocio(2, "Descrição inválida",
-					"Descrição da tarefa nula ou maior que 1000 caracteres.", 400);
+					"Descrição da task nula ou maior que 1000 caracteres.", 400);
 
 		titulo = tituloP;
 		descricao = descricaoP;

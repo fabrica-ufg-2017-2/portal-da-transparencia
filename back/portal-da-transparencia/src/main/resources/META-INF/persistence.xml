@@ -10,7 +10,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		
 		<!-- Entidades do sistemas que o hibernate ira mapear.-->
-		<class>fabrica.model.dominio.Tarefa</class>
+		<class>fabrica.model.domain.Tarefa</class>
 		
 		<!-- Propriedades default de concexão e funcionamento do Hibernate. -->
 		<properties>
