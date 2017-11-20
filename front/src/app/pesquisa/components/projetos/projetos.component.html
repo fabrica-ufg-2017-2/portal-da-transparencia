@@ -1,0 +1,17 @@
+<div class="margin-sidebar projetos">
+  <ul class="row">
+    <li class=" col-sm-6" *ngFor="let projeto of projetos">
+      <inf-projeto-pesquisa [projeto]="projeto"></inf-projeto-pesquisa>          
+    </li>
+  </ul>
+  <!-- <inf-pagination
+    [count]="someCountVar"
+    [page]="somePageVar"
+    [perPage]="somePerPageVar"
+    [pagesToShow]="5"
+    [loading]="someLoadingVar"
+    (onPrev)="prevPage()"
+    (onNext)="nextPage()"
+    (onPage)="goToPage($event)">
+  </inf-pagination> -->
+</div>
