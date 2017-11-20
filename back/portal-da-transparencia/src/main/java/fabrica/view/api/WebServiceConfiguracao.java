@@ -6,7 +6,6 @@ import fabrica.controller.dto.ExcecaoNegocioDTO;
 import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
 
-
 /**
  * 
  * @author gabriel
