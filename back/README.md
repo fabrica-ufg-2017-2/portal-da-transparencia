@@ -18,6 +18,7 @@ Repositórito criado para testar arquitetura do sistemas Portal da Trnaparência
 		- PORTBD: -> Porta do bando de dados.
 		- USUBD: -> Nome de usúario do banco de dados.
 		- SENHBD: -> Senha do banco de dados.
+		- PORTAWS: -> Porta do servidor.
 	- Exemplo de comando maven para rodar a aplicação: ```mvn clean package && java -jar target/fabrica-jar-with-dependencies.jar DNSBD:localhost NOMEBD:novobanco PORTBD:3306 USUBD:root SENHBD:123456```
 	
 Clone o projeto abra em seu IDE favorito usando a opção import maven project. 
