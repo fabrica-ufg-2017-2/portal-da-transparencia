@@ -1,0 +1,11 @@
+<div class="margin-sidebar">
+  <div style="display: block">
+    <canvas baseChart
+      [data]="pieChartData"
+      [labels]="pieChartLabels"
+      [chartType]="'pie'"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)">
+    </canvas>
+  </div>
+</div>
