@@ -4,6 +4,7 @@ package fabrica;
 import org.apache.log4j.PropertyConfigurator;
 
 import fabrica.view.api.WebServiceConfiguracao;
+import fabrica.view.api.pesquisa.ApiProjetoPesquisa;
 import fabrica.view.api.ApiTarefa;
 
 /**
@@ -29,5 +30,6 @@ public class Principal {
 		 * Controllers que estrão ativos.
 		 */
 	    ApiTarefa.api(args);
+	    ApiProjetoPesquisa.api(args);
 	}
 }
