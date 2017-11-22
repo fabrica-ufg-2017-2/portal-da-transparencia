@@ -12,6 +12,9 @@
 		<!-- Entidades do sistemas que o hibernate ira mapear.-->
 		<class>fabrica.model.domain.Tarefa</class>
 		
+		<!-- Entidades do sistemas que o hibernate ira mapear.-->
+		<class>fabrica.model.domain.pesquisa.ProjetoPesquisa</class>
+		
 		<!-- Propriedades default de concexão e funcionamento do Hibernate. -->
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
