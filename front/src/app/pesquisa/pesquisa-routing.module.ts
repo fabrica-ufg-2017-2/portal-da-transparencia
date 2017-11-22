@@ -1,12 +1,29 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PesquisaComponent } from './pesquisa/pesquisa.component';
+import { PesquisaScreenComponent } from './screens/pesquisa/pesquisa.component';
+import { PesquisaDashboardScreenComponent } from './screens/pesquisa-dashboard/pesquisa-dashboard.component';
+import { ProjetosScreenComponent } from './screens/projetos/projetos.component';
+import { ProjetoScreenComponent } from './screens/projeto/projeto.component';
 
 const routes: Routes = [
   {
-    path: 'pesquisa',
-    component: PesquisaComponent
+    path: '',
+    component: PesquisaScreenComponent,
+    children: [
+      {
+        path: 'dashboard',
+        component: PesquisaDashboardScreenComponent
+      },
+      {
+        path: 'projetos',
+        component: ProjetosScreenComponent
+      },
+      {
+        path: 'projeto/:id',
+        component: ProjetoScreenComponent
+      }
+    ]
   }
 ];
 
@@ -14,4 +31,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class PesquisaRoutingModule { }
+export class PesquisaRoutingModule {}

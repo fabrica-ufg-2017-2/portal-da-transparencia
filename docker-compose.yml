@@ -1,0 +1,16 @@
+version: '3'
+services:
+  server:
+    build: .
+    command: java -jar target/fabrica-jar-with-dependencies.jar DNSBD:db
+    depends_on:
+      - db
+    ports:
+      - 80:80
+  db:
+    image: "mysql:5.5.57"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: portaltransparencia
+    volumes:
+      - "./db:/var/lib/mysql"

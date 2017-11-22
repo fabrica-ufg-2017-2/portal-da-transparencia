@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+
+	<persistence-unit name="portal-transparencia">
+		
+		<!-- Instruindo ao JPA que será usado Hibernate. -->
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		
+		<!-- Entidades do sistemas que o hibernate ira mapear.-->
+		<class>fabrica.model.domain.Tarefa</class>
+		
+		<!-- Entidades do sistemas que o hibernate ira mapear.-->
+		<class>fabrica.model.domain.pesquisa.ProjetoPesquisa</class>
+		
+		<!-- Propriedades default de concexão e funcionamento do Hibernate. -->
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="123456" />
+			<property name="javax.persistence.jdbc.url"
+					value="jdbc:mysql://localhost:3306/portaltransparencia?useTimezone=true&amp;serverTimezone=UTC"></property>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.connection.shutdown" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="false" />
+		</properties>
+		
+	</persistence-unit>
+
+</persistence>
