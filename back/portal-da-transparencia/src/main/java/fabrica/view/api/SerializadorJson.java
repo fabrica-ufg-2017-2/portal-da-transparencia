@@ -29,4 +29,12 @@ public class SerializadorJson implements ResponseTransformer {
 	public String render(Object model) throws Exception {
 		return gson.toJson(model);
 	}
+	
+	/**
+	 * Retorna o objeto serializador/desserealizador da instancia
+	 * @return {@link Gson}
+	 */
+	public Gson getGson() {
+		return this.gson;
+	}
 }
