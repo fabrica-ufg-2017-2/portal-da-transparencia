@@ -25,7 +25,7 @@ public class ApiProjetoExtensao implements Api {
 	public static void api(String[] args) {
 
 		post("/projeto_extensao", "application/json", (request, response) -> {
-			return projetoService.criarProjeto(json.gson.fromJson(request.body(), ProjetoExtensaoDTO.class));
+			return projetoService.criarProjeto(json.getGson().fromJson(request.body(), ProjetoExtensaoDTO.class));
 		}, json);
 
 		get("/projeto_extensao","application/json", (request, response) -> {

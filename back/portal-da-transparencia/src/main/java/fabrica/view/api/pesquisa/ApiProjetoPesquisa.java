@@ -2,8 +2,7 @@ package fabrica.view.api.pesquisa;
 
 import static spark.Spark.*;
 
-import fabrica.controller.dto.TarefaDTO;
-import fabrica.controller.service.ServiceTarefa;
+import fabrica.controller.dto.pesquisa.ProjetoPesquisaDTO;
 import fabrica.controller.service.pesquisa.ServiceProjetoPesquisa;
 import fabrica.view.api.Api;
 import fabrica.view.api.SerializadorJson;
@@ -19,7 +18,7 @@ public class ApiProjetoPesquisa implements Api {
 	
 	private static final SerializadorJson json = new SerializadorJson();
 	
-	private static final String BASE_PATH = "/api/projetos";
+	private static final String BASE_PATH = "/api/pesquisa/projetos";
 	
 	private static final String CONTENT_TYPE = "application/json";
 	
@@ -37,6 +36,11 @@ public class ApiProjetoPesquisa implements Api {
 		get(BASE_PATH, CONTENT_TYPE, (request, response) -> {
 			response.type(CONTENT_TYPE);
 			return servico.listaProjetos();
+		}, json);
+		
+		post(BASE_PATH, CONTENT_TYPE, (request, response) -> {
+			response.type(CONTENT_TYPE);
+			return servico.criarProjetoPesquisa(json.getGson().fromJson(request.body(), ProjetoPesquisaDTO.class));
 		}, json);
 	}
 }

@@ -3,13 +3,9 @@ package fabrica.controller.service.pesquisa;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import fabrica.controller.dto.TarefaDTO;
 import fabrica.controller.dto.pesquisa.ProjetoPesquisaDTO;
-import fabrica.model.dao.GenericDAO.BlocoAtualizar;
-import fabrica.model.dao.TarefaDAO;
 import fabrica.model.dao.TransacaoHibernate;
 import fabrica.model.dao.pesquisa.ProjetoPesquisaDAO;
-import fabrica.model.domain.Tarefa;
 import fabrica.model.domain.pesquisa.ProjetoPesquisa;
 
 /**
@@ -32,5 +28,12 @@ public class ServiceProjetoPesquisa {
 				        .stream()
 				        .map(ProjetoPesquisaDTO::converterDominio)
 				        .collect(Collectors.toList());
+	}
+	
+	public ProjetoPesquisaDTO criarProjetoPesquisa(final ProjetoPesquisaDTO projetoPesquisaDTO) {
+		ProjetoPesquisa projetoPesquisa = new ProjetoPesquisa().novoProjetoPesquisa(projetoPesquisaDTO.getNome(),
+				projetoPesquisaDTO.getSituacao(), projetoPesquisaDTO.getAreaConhecimento());
+		projetoPesquisaDAO.criar(projetoPesquisa);
+		return projetoPesquisaDTO;
 	}
 }

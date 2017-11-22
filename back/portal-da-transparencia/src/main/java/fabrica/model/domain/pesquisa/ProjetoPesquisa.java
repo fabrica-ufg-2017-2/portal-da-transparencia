@@ -10,6 +10,8 @@ import javax.persistence.InheritanceType;
 import org.hibernate.annotations.Type;
 
 import fabrica.model.dao.Entidade;
+import fabrica.model.domain.ExcecaoNegocio;
+
 /**
  * Classe para representar um Projeto de Pesquisa
  * @author Jean Marcos
@@ -37,10 +39,34 @@ public class ProjetoPesquisa extends Entidade {
 	private Date dataFim;
 	
 	/**
-	 * Construtor padrão para um projeto
+	 * Cria uma instância do objeto validando as propriedades
+	 * @param nome
+	 * @param situacao
+	 * @param areaConhecimento
+	 * @return {@link ProjetoPesquisa} A nova instância
 	 */
-	public ProjetoPesquisa() {
+	public ProjetoPesquisa novoProjetoPesquisa(final String nome, final String situacao, 
+			final String areaConhecimento) {
 		
+		if (nome == null || nome.length() > 64) {
+			throw new ExcecaoNegocio(1, "Nome inválido",
+					"Nome do projeto nulo ou maior que 64 caracteres.", 400);
+		}
+		
+		if (situacao == null || situacao.length() > 64) {
+			throw new ExcecaoNegocio(2, "Situação inválida",
+					"Situação do projeto nula ou maior que 64 caracteres.", 400);
+		}
+		
+		if (areaConhecimento == null || areaConhecimento.length() > 1024) {
+			throw new ExcecaoNegocio(3, "Área de conhecimento inválida",
+					"Àrea de conhecimento do projeto nula ou maior que 1024 caracteres.", 400);
+		}
+
+		this.nome = nome;
+		this.situacao = situacao;
+		this.areaConhecimento = areaConhecimento;
+		return this;
 	}
 	
 	/**
