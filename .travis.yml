@@ -3,5 +3,10 @@ sudo: required
 services:
   - docker
 
+env:
+  global:
+    - DOCKER-VERSION=17.09.0-ce
+    - DOCKER-COMPOSE-VERSION=1.16.1
+
 script:
   - docker-compose build
