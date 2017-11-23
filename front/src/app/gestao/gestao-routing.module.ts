@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { GestaoComponent } from './screens/gestao/gestao.component';
+import { PortariasScreenComponent } from './screens/portarias/portarias.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: GestaoComponent
+    redirectTo: 'portarias'
+  }, {
+    path: 'portarias',
+    component: PortariasScreenComponent
   }
 ];
 
