@@ -1,0 +1,13 @@
+<div class="row portaria">
+  <a href="" class="icon">
+    <i class="fa fa-paperclip fa-2x"></i>
+  </a>
+  <div class="content">
+    <span class="header"><b>{{portaria.numero}}</b> Expedida em {{portaria.dataEmissao}}</span>
+    <span class="status">{{portaria.estado}}</span>
+    <br>
+    <span class="resume">{{portaria.resumo}}</span>
+    <br>
+    <span class="names"><a href="" *ngFor="let designado of portaria.designados">{{designado}}; </a></span>
+  </div>
+</div>
