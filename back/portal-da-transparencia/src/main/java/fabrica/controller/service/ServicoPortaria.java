@@ -1,12 +1,12 @@
-package fabrica.model.servico;
+package fabrica.controller.service;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
 
 import fabrica.model.dao.TransacaoHibernate;
-import fabrica.model.dominio.Portaria;
-import fabrica.dto.PortariaDTO;
 import fabrica.model.dao.GenericDAO.BlocoAtualizar;
+import fabrica.model.domain.Portaria;
+import fabrica.controller.dto.PortariaDTO;
 import fabrica.model.dao.PortariaDAO;
 
 

@@ -1,6 +1,6 @@
 package fabrica.model.dao;
 
-import fabrica.model.dominio.Portaria;
+import fabrica.model.domain.Portaria;
 
 public class PortariaDAO extends GenericDAO<Portaria, Long>{
 
