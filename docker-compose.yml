@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build: .
-    command: java -jar target/fabrica-jar-with-dependencies.jar DNSBD:db
+    command: java -jar target/fabrica-jar-with-dependencies.jar DNSBD:db PORTAWS:80
     depends_on:
       - db
     ports:
