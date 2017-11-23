@@ -15,20 +15,35 @@ import fabrica.controller.dto.extensao.ProjetoExtensaoDTO;
  */
 public class ApiProjetoExtensao implements Api {
 
+	/**
+	 * Serializador de Objetos para JSON
+	 */
 	private static final SerializadorJson json = new SerializadorJson();
-
+	/**
+	 * Serviço para Projeto de Extensão
+	 */
 	private static final ServiceProjetoExtensao projetoService = new ServiceProjetoExtensao();
+	/**
+	 * URL base para projetos de Extensão
+	 */
+	private static final String BASE_PATH = "/api/extensao/projetos";
+	/**
+	 * Content-Type padrão para recebimento e retorno de dados
+	 */
+	private static final String CONTENT_TYPE = "application/json";
 
 	/**
 	 * @param args - Args do programa principal.
 	 */
 	public static void api(String[] args) {
 
-		post("/projeto_extensao", "application/json", (request, response) -> {
+		post(BASE_PATH,  CONTENT_TYPE, (request, response) -> {
+			response.type(CONTENT_TYPE);
 			return projetoService.criarProjeto(json.getGson().fromJson(request.body(), ProjetoExtensaoDTO.class));
 		}, json);
 
-		get("/projeto_extensao","application/json", (request, response) -> {
+		get(BASE_PATH, CONTENT_TYPE, (request, response) -> {
+			response.type(CONTENT_TYPE);
 			return projetoService.buscarTodas();
 		}, json);
 	}
