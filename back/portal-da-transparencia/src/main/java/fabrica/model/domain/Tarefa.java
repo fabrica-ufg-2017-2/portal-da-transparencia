@@ -37,11 +37,11 @@ public class Tarefa extends Entidade {
 		
 		if (tituloP == null || tituloP.length() > 30)
 			throw new ExcecaoNegocio(1, "Titulo inválido",
-					"Título da task nulo ou maior que 30 caracteres.", 400);
+					"Título da task nulo ou maior que 30 caracteres.");
 		
 		if (descricaoP == null || descricaoP.length() > 1000)
 			throw new ExcecaoNegocio(2, "Descrição inválida",
-					"Descrição da task nula ou maior que 1000 caracteres.", 400);
+					"Descrição da task nula ou maior que 1000 caracteres.");
 
 		titulo = tituloP;
 		descricao = descricaoP;
