@@ -16,7 +16,9 @@ import fabrica.model.domain.extensao.ProjetoExtensao;
  * Classe responsável por manipular a entidade {@link ProjetoExtensao}
  */
 public class ServiceProjetoExtensao {
-
+	/**
+	 * DAO para Projeto de Extensão
+	 */
 	private final ProjetoExtensaoDAO projetoDAO = new ProjetoExtensaoDAO(new TransacaoHibernate(),
 			ProjetoExtensao.class);
 	/**
