@@ -1,0 +1,22 @@
+<div class="projetos">
+  <div class="title">
+    Projetos
+  </div>
+  <ul class="row">
+    <li class=" col-sm-6" *ngFor="let projeto of projetos">
+      <inf-projeto-extensao [projeto]="projeto"></inf-projeto-extensao>
+    </li>
+  </ul>
+
+  <h3 class="empty-data" *ngIf="!projetos || !projetos.lenght">Não existem projetos cadastrados</h3>
+  <!-- <inf-pagination
+    [count]="someCountVar"
+    [page]="somePageVar"
+    [perPage]="somePerPageVar"
+    [pagesToShow]="5"
+    [loading]="someLoadingVar"
+    (onPrev)="prevPage()"
+    (onNext)="nextPage()"
+    (onPage)="goToPage($event)">
+  </inf-pagination> -->
+</div>
