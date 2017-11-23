@@ -7,7 +7,7 @@ import { Portaria } from './../models/portaria.interface';
 @Component({
   selector: 'inf-portarias-container',
   template: `
-    <inf-projetos-pesquisa [portarias]="portarias"></inf-projetos-pesquisa>
+    <inf-portarias-gestao [portarias]="portarias"></inf-portarias-gestao>
   `
 })
 

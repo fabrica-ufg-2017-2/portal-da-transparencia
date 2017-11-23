@@ -6,11 +6,12 @@ import { PortariasContainerComponent } from './containers/portarias.container';
 import { GestaoComponent } from './screens/gestao/gestao.component';
 import { GestaoRoutingModule } from './gestao-routing.module';
 import { GestaoService } from './services/gestao.service';
+import { PortariasComponent } from './components/portarias/portarias.component';
 
 @NgModule({
   declarations: [
     GestaoComponent,
-    PortariasContainerComponent
+    PortariasComponent
   ],
   imports: [CommonModule, GestaoRoutingModule],
   exports: [GestaoComponent],
