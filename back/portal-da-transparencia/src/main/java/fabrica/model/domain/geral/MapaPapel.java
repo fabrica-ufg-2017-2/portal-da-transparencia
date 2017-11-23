@@ -7,8 +7,6 @@ import static fabrica.util.UtilValidacao.*;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.function.Function;
-import java.util.function.Supplier;
 
 
 /**

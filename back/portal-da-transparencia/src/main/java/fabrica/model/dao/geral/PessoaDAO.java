@@ -2,7 +2,6 @@ package fabrica.model.dao.geral;
 
 import fabrica.model.dao.GenericDAO;
 import fabrica.model.dao.ProvedorTransacao;
-import fabrica.model.domain.geral.MapaPapel;
 import fabrica.model.domain.geral.Pessoa;
 
 /**
