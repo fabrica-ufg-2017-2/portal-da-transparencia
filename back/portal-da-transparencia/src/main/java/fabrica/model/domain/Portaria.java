@@ -13,7 +13,7 @@ import fabrica.model.dao.Entidade;
 // @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Portaria extends Entidade {
 
-	@Column
+	@Column (unique = true)
 	private Long numero;
 
 	@Column(name = "data_emissao")
