@@ -19,10 +19,10 @@ import fabrica.controller.dto.PortariaDTO;
 public class PortariaTest {
 
 	/**Atributo servico */
-	ServicoPortaria servico;
+	private ServicoPortaria servico;
 	
 	/**Atributo portariaDTO */
-	PortariaDTO portariaDTO;
+	private PortariaDTO portariaDTO;
 	
 	/**
 	 * Método setUp prepara atributos e objetos reutilizados pelos outros teste

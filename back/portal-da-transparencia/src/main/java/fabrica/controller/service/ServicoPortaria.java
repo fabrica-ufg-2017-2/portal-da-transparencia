@@ -77,7 +77,7 @@ public class ServicoPortaria {
 	 */
 	public PortariaDTO mesclarPortaria(final PortariaDTO portariaDTO) {
 		BlocoAtualizar<Portaria> atualizacao = (registro) -> {
-			return registro.NovaPortaria();
+			return registro.novaPortaria();
 		};
 		portariaDAO.atualizar(atualizacao, portariaDTO.getId());
 

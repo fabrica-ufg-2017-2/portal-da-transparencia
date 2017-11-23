@@ -134,4 +134,9 @@ public class Portaria extends Entidade {
 	public void setIntegra(String integra) {
 		this.integra = integra;
 	}
+
+	public Portaria novaPortaria() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

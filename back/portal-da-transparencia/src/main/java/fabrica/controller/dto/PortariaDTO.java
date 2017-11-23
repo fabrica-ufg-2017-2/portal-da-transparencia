@@ -2,8 +2,6 @@ package fabrica.controller.dto;
 
 import java.util.Date;
 
-import javax.persistence.Column;
-
 import fabrica.model.domain.Portaria;
 
 /**
