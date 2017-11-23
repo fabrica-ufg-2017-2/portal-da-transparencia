@@ -1,0 +1,10 @@
+.margin-sidebar {
+  margin-left: 225px;
+  margin-top: 1em;
+}
+
+@media (max-width: 992px) {
+  .margin-sidebar {
+    margin-left: 45px;
+  }
+}

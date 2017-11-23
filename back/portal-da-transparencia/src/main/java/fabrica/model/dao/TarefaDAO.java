@@ -1,6 +1,6 @@
 package fabrica.model.dao;
 
-import fabrica.model.dominio.Tarefa;
+import fabrica.model.domain.Tarefa;
 
 /**
  * 

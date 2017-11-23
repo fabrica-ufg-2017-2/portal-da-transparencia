@@ -10,6 +10,6 @@ export class RestauranteService {
   constructor(private http: HttpClient) {}
 
   fetchRestaurants(): Observable<Restaurant[]> {
-    return this.http.get<Restaurant[]>(`${environment.api_url}/restaurants`);
+    return this.http.get<Restaurant[]>(`${environment.api.url}/restaurants`);
   }
 }

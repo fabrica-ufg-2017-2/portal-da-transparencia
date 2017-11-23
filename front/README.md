@@ -12,7 +12,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project in the development mode, to use the api of json-server to mock the FrontEnd.
+
+The build artifacts will be stored in the `dist/` directory. 
+
+Use the `npm run build:prod` flag for a production build, to use the api of Java made by our BackEnd.
 
 ## Running unit tests
 
