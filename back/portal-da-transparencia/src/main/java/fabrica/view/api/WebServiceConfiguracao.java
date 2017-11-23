@@ -5,6 +5,7 @@ import static spark.Spark.*;
 import fabrica.controller.dto.ExcecaoNegocioDTO;
 import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
+import org.eclipse.jetty.http.HttpStatus;
 
 /**
  * 
@@ -40,7 +41,7 @@ public final class WebServiceConfiguracao {
 			resposta.body(json.gson.toJson(ExcecaoNegocioDTO.converterDominio(excecao)));
 			resposta.header("content-type", "application/json");
 			
-			resposta.status(excecao.getHttpCode());
+			resposta.status(HttpStatus.BAD_REQUEST_400);
 		});
 
 		/**
