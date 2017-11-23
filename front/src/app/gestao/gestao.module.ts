@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { PortariasContainerComponent } from './containers/portarias.container';
 
 import { PortariasScreenComponent } from './screens/portarias/portarias.component';
-import { GestaoComponent } from './screens/gestao/gestao.component';
 import { GestaoRoutingModule } from './gestao-routing.module';
 import { GestaoService } from './services/gestao.service';
 
@@ -17,13 +16,12 @@ import {PortariasService} from './services/portarias.service';
   declarations: [
     PortariasScreenComponent,
     PortariasContainerComponent,
-    GestaoComponent,
     LeftSideBarComponent,
     PortariasComponent,
     PortariaComponent
   ],
   imports: [CommonModule, GestaoRoutingModule],
-  exports: [GestaoComponent],
+  exports: [],
   providers: [
     GestaoService,
     PortariasService
