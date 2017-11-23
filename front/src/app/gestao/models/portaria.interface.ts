@@ -1,8 +1,8 @@
 export interface Portaria {
   id: number,
   numero: string,
+  resumo: string,
   dataEmissao: string,
-  dataInicio: string,
-  dataFim: string,
-  integra: string
+  designados: Array<string>,
+  url: string
 }
