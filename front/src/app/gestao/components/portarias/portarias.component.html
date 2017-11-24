@@ -2,5 +2,5 @@
   <div class="col-md-6" *ngFor="let portaria of portarias">
     <inf-portaria-gestao [portaria]="portaria"></inf-portaria-gestao>
   </div>
-  <h3 class="empty-data" *ngIf="!portarias || !portarias.length">Nenhuma portaria encontrada</h3>
+  <h3 class="empty-data" *ngIf="!portarias || !(portarias | async)?.length">Nenhuma portaria encontrada</h3>
 </div>
