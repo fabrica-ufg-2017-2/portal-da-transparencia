@@ -72,19 +72,6 @@ public class ServicoPortaria {
 	}
 
 	/**
-	 * Método mesclarPortaria é responsável por invocar o método DAO responsável
-	 * por mesclar uma portaria
-	 */
-	public PortariaDTO mesclarPortaria(final PortariaDTO portariaDTO) {
-		BlocoAtualizar<Portaria> atualizacao = (registro) -> {
-			return registro.novaPortaria();
-		};
-		portariaDAO.atualizar(atualizacao, portariaDTO.getId());
-
-		return portariaDTO;
-	}
-
-	/**
 	 * Método buscarPorNumero busca uma portaria pelo numero.
 	 */
 	public PortariaDTO buscarPorNumero(final PortariaDTO portariaDTO) {
