@@ -3,7 +3,6 @@ package fabrica.view.api;
 import static spark.Spark.delete;
 import static spark.Spark.get;
 import static spark.Spark.post;
-import static spark.Spark.put;
 
 import fabrica.controller.dto.PortariaDTO;
 import fabrica.controller.service.ServicoPortaria;
@@ -31,10 +30,6 @@ public class ApiPortaria {
 		delete(BASE_PATH,(request, response) -> {
 			return servico.deletarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 		});
-		
-		put(BASE_PATH,CONTENT_TYPE, (request, response) -> {
-			return servico.mesclarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
-		}, json);
 	}
 
 }
