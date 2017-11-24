@@ -39,13 +39,6 @@ public class Portaria extends Entidade {
 	private String integra;
 
 	/**
-	 * Método NovaPortaria retorna uma instancia de portaria 
-	 */
-	public Portaria NovaPortaria() {
-		return this;
-	}
-
-	/**
 	 * @return the numero
 	 */
 	public Long getNumero() {
