@@ -33,7 +33,13 @@
       a {
         display: block;
         text-decoration: none;
-        color: #fff;
+        color: #333333;
+
+        &:hover,
+        &:focus,
+        &.active {
+          background: silver;
+        }
 
         .sidebar-icon {
           width: 45px;
@@ -43,24 +49,12 @@
           display: inline-block;
           text-indent: 7px;
           margin-right: 10px;
-          color: #fff;
+          color: #333333;
           float: left;
         }
       }
     }
   }
-}
-
-.sidebar-nav li:first-child a {
-  background: #c08ded;
-}
-
-.sidebar-nav li:nth-child(2) a {
-  background: #ad81d5;
-}
-
-.sidebar-nav li:nth-child(3) a {
-  background: #9a6fc3;
 }
 
 @media (min-width: 992px) {
