@@ -8,7 +8,7 @@ import { Portaria } from './../models/portaria.interface';
 
 @Injectable()
 export class PortariasService {
-  private static readonly ENDPONIT = `${environment.api_url}/portarias`;
+  private static readonly ENDPONIT = `${environment.api_url}/task`;
 
   constructor(private http: HttpClient) { }
 
