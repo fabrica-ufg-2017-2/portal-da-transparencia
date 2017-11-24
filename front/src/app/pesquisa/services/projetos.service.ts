@@ -8,7 +8,7 @@ import { Projeto } from './../models/projeto.interface';
 
 @Injectable()
 export class ProjetosService {
-  private static readonly ENDPONIT = `${environment.api_url}/projetos`;
+  private static readonly ENDPONIT = `${environment.api.url}/pesquisa/projetos`;
 
   constructor(private http: HttpClient) {}
 

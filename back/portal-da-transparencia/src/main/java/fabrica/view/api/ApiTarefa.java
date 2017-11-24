@@ -28,7 +28,7 @@ public class ApiTarefa implements Api {
 	 */
 	public static void api(String[] args) {
 		post("/task", "application/json", (request, response) -> {
-			return servico.criarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
+			return servico.criarTarefa(json.getGson().fromJson(request.body(), TarefaDTO.class));
 						
 		}, json);
 		
@@ -37,11 +37,11 @@ public class ApiTarefa implements Api {
 		}, json);
 		
 		delete("/task",(request, response) -> {
-			return servico.deletarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
+			return servico.deletarTarefa(json.getGson().fromJson(request.body(), TarefaDTO.class));
 		});
 		
 		put("/task","application/json", (request, response) -> {
-			return servico.atualizarTarefa(json.gson.fromJson(request.body(), TarefaDTO.class));
+			return servico.atualizarTarefa(json.getGson().fromJson(request.body(), TarefaDTO.class));
 		}, json);
 	}
 }

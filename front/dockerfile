@@ -1,3 +1,0 @@
-FROM node:6.11.3
-MAINTAINER marcelo@inf.ufg.br
-RUN npm install -g @angular/cli

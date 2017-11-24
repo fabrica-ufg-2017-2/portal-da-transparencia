@@ -1,0 +1,1604 @@
+{
+  "disciplinas": [
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "1",
+      "nome": "Integração 2",
+      "professor": "Marcelo Quinta",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "2",
+      "nome": "Construção de Software",
+      "professor": "Rubens de Castro Pereira",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "3",
+      "nome": "Práticas em Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "4",
+      "nome": "Processo de Software",
+      "professor": "Gilmar",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "5",
+      "nome": "Gerência de Projetos",
+      "professor": "Adriana",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "6",
+      "nome": "Engenharia de Software",
+      "professor": "Juliano",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "7",
+      "nome": "Algoritmos Grafos",
+      "professor": "Lazer Pinto",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "8",
+      "nome": "Estrutura de Dados",
+      "professor": "Tio ED",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "9",
+      "nome": "Técnicas Avançadas de Construção de Software",
+      "professor": "Wallison",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    },
+    {
+      "id": "10",
+      "nome": "Redes e Sistemas Distrubuídos",
+      "professor": "Ricardo",
+      "curso": "Engenharia de Software",
+      "cargaHoraria": "64h",
+      "periodoLetivo": "2017/2"
+    }
+  ]
+}

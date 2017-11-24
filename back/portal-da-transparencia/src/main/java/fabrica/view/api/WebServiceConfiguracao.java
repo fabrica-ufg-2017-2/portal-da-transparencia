@@ -5,6 +5,7 @@ import static spark.Spark.*;
 import fabrica.controller.dto.ExcecaoNegocioDTO;
 import fabrica.model.domain.ExcecaoNegocio;
 import fabrica.util.UtilArgs;
+import org.eclipse.jetty.http.HttpStatus;
 
 /**
  * 
@@ -25,7 +26,14 @@ public final class WebServiceConfiguracao {
 		 * em memoria.
 		 */
 		UtilArgs.configura(args);
-		
+
+		/**
+		 * Cofigura porta caso porta passada
+		 * na configuração senão mantém default.
+		 */
+		port(UtilArgs.getParametros().containsKey(UtilArgs.Args.PORTAWS)
+				? Integer.valueOf(UtilArgs.getParametros().get(UtilArgs.Args.PORTAWS)) : 4567);
+
 		/**
 		 * Tratamento genérico de exceções.
 		 */
@@ -33,7 +41,7 @@ public final class WebServiceConfiguracao {
 			resposta.body(json.gson.toJson(ExcecaoNegocioDTO.converterDominio(excecao)));
 			resposta.header("content-type", "application/json");
 			
-			resposta.status(excecao.getHttpCode());
+			resposta.status(HttpStatus.BAD_REQUEST_400);
 		});
 
 		/**
