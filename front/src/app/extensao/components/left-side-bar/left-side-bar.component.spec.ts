@@ -1,21 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExtensaoScreenComponent } from './extensao.component';
+import { LeftSideBarComponent } from './left-side-bar.component';
 
-describe('ExtensaoScreenComponent', () => {
-  let component: ExtensaoScreenComponent;
-  let fixture: ComponentFixture<ExtensaoScreenComponent>;
+describe('LeftSideBarComponent', () => {
+  let component: LeftSideBarComponent;
+  let fixture: ComponentFixture<LeftSideBarComponent>;
 
   beforeEach(
     async(() => {
       TestBed.configureTestingModule({
-        declarations: [ExtensaoScreenComponent]
+        declarations: [LeftSideBarComponent]
       }).compileComponents();
     })
   );
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ExtensaoScreenComponent);
+    fixture = TestBed.createComponent(LeftSideBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
