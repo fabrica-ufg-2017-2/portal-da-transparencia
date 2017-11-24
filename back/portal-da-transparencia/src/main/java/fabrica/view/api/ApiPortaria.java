@@ -14,22 +14,25 @@ public class ApiPortaria {
 	
 	private static final ServicoPortaria servico = new ServicoPortaria();
 	
+	private static final String BASE_PATH = "/api/portaria";
+	
+	private static final String CONTENT_TYPE = "application/json";
 	
 	public static void api(String[] args) {
-		post("/task", "application/json", (request, response) -> {
+		post(BASE_PATH, CONTENT_TYPE, (request, response) -> {
 			return servico.criarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 						
 		}, json);
 		
-		get("/task","application/json", (request, response) -> {
+		get(BASE_PATH,CONTENT_TYPE, (request, response) -> {
 			return servico.buscarTodas();
 		}, json);
 		
-		delete("/task",(request, response) -> {
+		delete(BASE_PATH,(request, response) -> {
 			return servico.deletarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 		});
 		
-		put("/task","application/json", (request, response) -> {
+		put(BASE_PATH,CONTENT_TYPE, (request, response) -> {
 			return servico.mesclarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 		}, json);
 	}
