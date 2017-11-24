@@ -24,7 +24,11 @@ public class ProjetoExtensaoDTO extends DTO<ProjetoExtensao> {
   private Date fim;
 
   private String tipo;
-
+	/**
+	 * Realiza a conversão de um ProjetoExtensao para o seu respectivo DTO
+	 * @param  ProjetoExtensao projeto
+	 * @return ProjetoExtensaoDTO
+	 */
 	public static ProjetoExtensaoDTO converterDominio(ProjetoExtensao projeto) {
 		ProjetoExtensaoDTO projetoDTO = new ProjetoExtensaoDTO();
 		projetoDTO.id = projeto.getId();

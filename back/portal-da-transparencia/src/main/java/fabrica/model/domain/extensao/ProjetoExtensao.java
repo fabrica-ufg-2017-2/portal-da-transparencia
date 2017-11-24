@@ -39,32 +39,32 @@ public class ProjetoExtensao extends Entidade {
 	private String tipo;
 	/**
 	 * Salva um novo projeto
-	 * @param  final String        nome      Nome do Projeto
-	 * @param  final String        descricao Descrição do Projeto
-	 * @param  final Date          inicio    Data de Inicio
-	 * @param  final Date          fim       Data de Término
-	 * @param  final String        tipo      Tipo
+	 * @param nome      Nome do Projeto
+	 * @param descricao Descrição do Projeto
+	 * @param inicio    Data de Inicio
+	 * @param fim       Data de Término
+	 * @param tipo      Tipo
 	 * @return       ProjetoExtensao
 	 */
 	public ProjetoExtensao novo(final String nome, final String descricao, final Date inicio, final Date fim, final String tipo) {
 		if (nome.length() > 64 || nome == null) {
 			throw new ExcecaoNegocio(10, "Nome inválido",
-					"O nome do projeto deve possuir até 64 caracteres", 400);
+					"O nome do projeto deve possuir até 64 caracteres");
 		}
 
 		if (descricao.length() > 1024 || descricao == null) {
 			throw new ExcecaoNegocio(11, "Descrição inválida",
-					"A descrição deve possuir até 1024 caracteres", 400);
+					"A descrição deve possuir até 1024 caracteres");
 		}
 
 		if (inicio == null || fim == null) {
 			throw new ExcecaoNegocio(12, "Data inválida",
-					"A data de início e fim devem ser informadas", 400);
+					"A data de início e fim devem ser informadas");
 		}
 
 		if (tipo == null || tipo.length() == 0) {
 			throw new ExcecaoNegocio(13, "Tipo inválido",
-					"O Tipo do projeto deve ser informado", 400);
+					"O Tipo do projeto deve ser informado");
 		}
 
 		this.nome = nome;

@@ -50,17 +50,17 @@ public class ProjetoPesquisa extends Entidade {
 		
 		if (nome == null || nome.length() > 64) {
 			throw new ExcecaoNegocio(1, "Nome inválido",
-					"Nome do projeto nulo ou maior que 64 caracteres.", 400);
+					"Nome do projeto nulo ou maior que 64 caracteres.");
 		}
 		
 		if (situacao == null || situacao.length() > 64) {
 			throw new ExcecaoNegocio(2, "Situação inválida",
-					"Situação do projeto nula ou maior que 64 caracteres.", 400);
+					"Situação do projeto nula ou maior que 64 caracteres.");
 		}
 		
 		if (areaConhecimento == null || areaConhecimento.length() > 1024) {
 			throw new ExcecaoNegocio(3, "Área de conhecimento inválida",
-					"Àrea de conhecimento do projeto nula ou maior que 1024 caracteres.", 400);
+					"Àrea de conhecimento do projeto nula ou maior que 1024 caracteres.");
 		}
 
 		this.nome = nome;
