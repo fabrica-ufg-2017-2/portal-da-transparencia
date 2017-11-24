@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 
 import fabrica.model.dao.Entidade;
 
@@ -37,6 +39,11 @@ public class Portaria extends Entidade {
 	/**Atributo integra */
 	@Column
 	private String integra;
+	
+	/**Atributo origem */
+	@Column
+	@Enumerated(EnumType.STRING)
+	private EnumOrigemPortaria origem;
 
 	/**
 	 * @return the numero
@@ -128,8 +135,14 @@ public class Portaria extends Entidade {
 		this.integra = integra;
 	}
 
-	public Portaria novaPortaria() {
-		// TODO Auto-generated method stub
-		return null;
+
+	public EnumOrigemPortaria getOrigem() {
+		return origem;
 	}
+
+	public void setOrigem(EnumOrigemPortaria origem) {
+		this.origem = origem;
+	}
+	
+	
 }
