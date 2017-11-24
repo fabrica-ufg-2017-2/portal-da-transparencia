@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
-import { Restaurant } from '../models/restaurant.model';
+import { Disciplina } from '../models/disciplina.model';
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
 
 @Injectable()
-export class RestauranteService {
+export class DisciplinasService {
   constructor(private http: HttpClient) {}
 
-  fetchRestaurants(): Observable<Restaurant[]> {
-    return this.http.get<Restaurant[]>(`${environment.api.url}/restaurants`);
+  buscarDisciplinas(): Observable<Disciplina[]> {
+    return this.http.get<Disciplina[]>(`${environment.api.url}/disciplinas`);
   }
 }
