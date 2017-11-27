@@ -14,9 +14,9 @@ import static org.junit.Assert.*;
  */
 public class PessoaTest extends TestCaseBase {
 
-    private static final String NOME  = "Matheus";
+    private static final String NOME  = "Marcelo Quinta";
 
-    private static final String EMAIL = "barbosa.olivera@hotmail.com";
+    private static final String EMAIL = "marcelo@inf.com.br";
 
     private static final String CPF   = "19376780400";
 
@@ -96,4 +96,7 @@ public class PessoaTest extends TestCaseBase {
         new Pessoa(NOME, EMAIL, CPF);
     }
 
+    public static Pessoa getPessoa() {
+        return new Pessoa(NOME, EMAIL, CPF);
+    }
 }
