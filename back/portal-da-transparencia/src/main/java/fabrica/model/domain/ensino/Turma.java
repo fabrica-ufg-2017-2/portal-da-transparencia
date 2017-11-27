@@ -32,7 +32,7 @@ public class Turma extends Entidade {
     @Column(length = 20)
     private String horario;
 
-    @Column
+    @OneToOne
     private Docente docenteResponsavel;
 
     @Column(precision = 10, scale = 6)

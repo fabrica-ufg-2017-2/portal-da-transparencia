@@ -16,7 +16,7 @@ import static fabrica.util.UtilValidacao.*;
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class Docente extends Entidade {
 
-    @Column
+    @OneToOne
     public MapaPapel mapaPapel;
 
     @Column(length = 50)
