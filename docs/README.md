@@ -9,7 +9,7 @@
 1. Clone o projeto
 1. Entre na pasta raiz do projeto
 1. Abra o terminal e execute: ``` docker-compose up --build```
-1. Abra no navegador: http://localhost:4567/
+1. Abra no navegador: http://localhost/
 
 ## Ferramentas
   [Slack](https://fabrica-ufg.slack.com/messages) - Comunicação

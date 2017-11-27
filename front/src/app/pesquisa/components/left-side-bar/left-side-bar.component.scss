@@ -51,12 +51,7 @@
 #sidebar-wrapper .sidebar-nav li a {
   display: block;
   text-decoration: none;
-  color: #428bca;
-}
-
-.sidebar-nav li:first-child a {
-  background: #92bce0 !important;
-  color: #fff !important;
+  color: black;
 }
 
 #sidebar-wrapper .sidebar-nav li a .sidebar-icon {
@@ -67,8 +62,16 @@
   display: inline-block;
   text-indent: 7px;
   margin-right: 10px;
-  color: #fff;
+  color: black;
   float: left;
+}
+
+.sidebar-nav li a {
+  &:hover,
+  &:focus,
+  &.active {
+    background: silver;
+  }
 }
 
 #sidebar-wrapper .sidebar-nav li a .caret {
@@ -108,29 +111,4 @@
     width: 200px;
     height: 0;
   }
-}
-
-.sidebar-nav li:first-child a {
-  background: #92bce0 !important;
-  color: #fff !important;
-}
-
-.sidebar-nav li:nth-child(2) a {
-  background: #6aa3d5 !important;
-  color: #fff !important;
-}
-
-.sidebar-nav li:nth-child(3) a {
-  background: #428bca !important;
-  color: #fff !important;
-}
-
-.sidebar-nav li:nth-child(4) a {
-  background: #3071a9 !important;
-  color: #fff !important;
-}
-
-.sidebar-nav li:nth-child(5) a {
-  background: #245682 !important;
-  color: #fff !important;
 }

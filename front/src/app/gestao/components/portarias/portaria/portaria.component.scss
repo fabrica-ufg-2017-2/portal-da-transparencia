@@ -1,0 +1,58 @@
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.portaria {
+  position: relative;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .5);
+  font-size: 16px;
+  color: #666666;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: #666666;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px 10px 10px 0;
+    border-radius: 50%;
+    background-color: #cccccc;
+    text-align: center;
+
+    i {
+      color: #ffffff;
+      line-height: 50px;
+    }
+  }
+
+  .content {
+
+    .header {
+      b {
+        color: #333333;
+        font-size: 18px;
+      }
+    }
+
+    .status {
+      float: right;
+      color: #333333;
+      font-weight: bold;
+    }
+
+    .resume {
+      color: #999999;
+      font-size: 14px;
+    }
+
+    .names {
+      font-weight: bold;
+    }
+  }
+}
