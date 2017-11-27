@@ -13,7 +13,7 @@ import java.util.Date;
  * @author gabriel
  * @version 1.0.0
  */
-public class PeridoLetivoTest extends TestCaseBase {
+public class PeriodoLetivoTest extends TestCaseBase {
 
     private static final Date hoje = new Date();
     private static final LocalDateTime ldt = LocalDateTime.ofInstant(hoje.toInstant(), ZoneId.systemDefault());
@@ -21,25 +21,25 @@ public class PeridoLetivoTest extends TestCaseBase {
     @Test
     public void testPeriodoLetivo() {
         expectedException(ExcecaoNegocio.class, "10");
-        new PeridoLetivo(null, null);
+        new PeriodoLetivo(null, null);
     }
 
     @Test
     public void testPeridoLetivo1() {
         expectedException(ExcecaoNegocio.class, "20");
-        new PeridoLetivo(hoje, null);
+        new PeriodoLetivo(hoje, null);
 
     }
 
     @Test
     public void testPeriodoLetivo2() {
         expectedException(ExcecaoNegocio.class, "20");
-        new PeridoLetivo(
+        new PeriodoLetivo(
                 hoje, Date.from(ldt.minusDays(120).toInstant(ZoneOffset.UTC)));
     }
 
-    public static PeridoLetivo getPeriodoLetivo() {
-        return new PeridoLetivo(
+    public static PeriodoLetivo getPeriodoLetivo() {
+        return new PeriodoLetivo(
                 hoje, Date.from(ldt.plusDays(120).toInstant(ZoneOffset.UTC)));
     }
 }

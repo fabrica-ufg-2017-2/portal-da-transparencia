@@ -18,7 +18,7 @@ import static fabrica.util.UtilValidacao.*;
 public class Turma extends Entidade {
 
     @OneToOne
-    private PeridoLetivo peridoLetivo;
+    private PeriodoLetivo periodoLetivo;
 
     @Column
     private Integer qtdAlunos;
@@ -43,11 +43,11 @@ public class Turma extends Entidade {
 
     public Turma() { }
 
-    public Turma(PeridoLetivo peridoLetivo,
+    public Turma(PeriodoLetivo periodoLetivo,
                  String cargaHoraria,
                  String horario,
                  Docente docenteResponsavel) {
-        this.peridoLetivo = valida(peridoLetivo, () -> {
+        this.periodoLetivo = valida(periodoLetivo, () -> {
            throw new ExcecaoNegocio(10,
                                     "Turma período letivo",
                                     "Período letivo nulo inválido para cadastro.");
@@ -65,7 +65,7 @@ public class Turma extends Entidade {
         });
         this.docenteResponsavel = valida(docenteResponsavel, (docenteResponsavelP) -> {
            return (docenteResponsavelP != null &&
-                   docenteResponsavelP.mapaPapel.getDataFim().after(this.peridoLetivo.getDataInicio()));
+                   docenteResponsavelP.mapaPapel.getDataFim().after(this.periodoLetivo.getDataInicio()));
         }, () -> {
             throw new ExcecaoNegocio(40,
                     "Turma docente responsável.",
@@ -122,8 +122,8 @@ public class Turma extends Entidade {
         return this;
     }
 
-    public PeridoLetivo getPeridoLetivo() {
-        return peridoLetivo;
+    public PeriodoLetivo getPeriodoLetivo() {
+        return periodoLetivo;
     }
 
     public Integer getQtdAlunos() {
