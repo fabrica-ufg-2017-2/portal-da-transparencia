@@ -1,6 +1,7 @@
 package fabrica;
 
 
+import fabrica.view.api.ApiPortaria;
 import org.apache.log4j.PropertyConfigurator;
 
 import fabrica.view.api.WebServiceConfiguracao;
@@ -32,6 +33,7 @@ public class Principal {
 		 */
 	    ApiTarefa.api(args);
 	    ApiProjetoPesquisa.api(args);
-			ApiProjetoExtensao.api(args);
+            ApiProjetoExtensao.api(args);
+            ApiPortaria.api(args);
 	}
 }

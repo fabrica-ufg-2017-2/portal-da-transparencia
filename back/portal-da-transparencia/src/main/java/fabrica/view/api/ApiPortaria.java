@@ -7,7 +7,7 @@ import static spark.Spark.post;
 import fabrica.controller.dto.PortariaDTO;
 import fabrica.controller.service.ServicoPortaria;
 
-public class ApiPortaria {
+public class ApiPortaria implements Api{
 	
 	private static final SerializadorJson json = new SerializadorJson();
 	
@@ -19,15 +19,18 @@ public class ApiPortaria {
 	
 	public static void api(String[] args) {
 		post(BASE_PATH, CONTENT_TYPE, (request, response) -> {
+                        response.type(CONTENT_TYPE);
 			return servico.criarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 						
 		}, json);
 		
 		get(BASE_PATH,CONTENT_TYPE, (request, response) -> {
+                        response.type(CONTENT_TYPE);
 			return servico.buscarTodas();
 		}, json);
 		
 		delete(BASE_PATH,(request, response) -> {
+                        response.type(CONTENT_TYPE);
 			return servico.deletarPortaria(json.getGson().fromJson(request.body(), PortariaDTO.class));
 		});
 	}
