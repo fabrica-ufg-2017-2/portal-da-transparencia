@@ -29,7 +29,7 @@ public class TurmaDTO extends DTO<Turma> {
 
     public static TurmaDTO converterDominio(Turma dominio) {
         TurmaDTO dto = new TurmaDTO();
-            dto.periodoLetivo = PeriodoLetivoDTO.converterDominio(dominio.getPeridoLetivo());
+            dto.periodoLetivo = PeriodoLetivoDTO.converterDominio(dominio.getPeriodoLetivo());
             dto.qtdAlunos = dominio.getQtdAlunos();
             dto.qtdVagas = dominio.getQtdVagas();
             dto.cargaHoraria = dominio.getCargaHoraria();

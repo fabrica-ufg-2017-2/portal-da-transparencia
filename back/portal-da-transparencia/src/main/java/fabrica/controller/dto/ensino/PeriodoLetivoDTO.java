@@ -1,7 +1,7 @@
 package fabrica.controller.dto.ensino;
 
 import fabrica.controller.dto.DTO;
-import fabrica.model.domain.ensino.PeridoLetivo;
+import fabrica.model.domain.ensino.PeriodoLetivo;
 
 import java.util.Date;
 
@@ -9,13 +9,13 @@ import java.util.Date;
  * @author gabriel
  * @version 1.0.0
  */
-public class PeriodoLetivoDTO extends DTO<PeridoLetivo> {
+public class PeriodoLetivoDTO extends DTO<PeriodoLetivo> {
 
     private Date dataInicio;
 
     private Date dataFim;
 
-    public static PeriodoLetivoDTO converterDominio(PeridoLetivo dominio) {
+    public static PeriodoLetivoDTO converterDominio(PeriodoLetivo dominio) {
         PeriodoLetivoDTO dto = new PeriodoLetivoDTO();
             dto.dataInicio = dominio.getDataInicio();
             dto.dataFim = dominio.getDataFim();

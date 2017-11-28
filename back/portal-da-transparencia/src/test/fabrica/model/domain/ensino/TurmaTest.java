@@ -26,39 +26,39 @@ public class TurmaTest extends TestCaseBase {
     @Test
     public void testTurmaCargaHoraria() {
         expectedException(ExcecaoNegocio.class, "20");
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), null, null, null);
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), null, null, null);
     }
 
     @Test
     public void testTurmaCargaHoraria1() {
         expectedException(ExcecaoNegocio.class, "20");
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), UtilStringTest.concat("a", 51), null, null);
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), UtilStringTest.concat("a", 51), null, null);
     }
 
     @Test
     public void testTurmaHorario() {
         expectedException(ExcecaoNegocio.class, "30");
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), cargaHoraria, null, null);
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), cargaHoraria, null, null);
     }
 
     @Test
     public void testTurmaHorario1() {
         expectedException(ExcecaoNegocio.class, "30");
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), cargaHoraria, UtilStringTest.concat("a", 21), null);
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), cargaHoraria, UtilStringTest.concat("a", 21), null);
     }
 
     @Test
     public void testTurmaDocenteResponsavel() {
         expectedException(ExcecaoNegocio.class, "40");
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, null);
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, null);
     }
 
     @Test
     public void testTurma() {
-        new Turma(PeridoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, DocenteTest.getDocente());
+        new Turma(PeriodoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, DocenteTest.getDocente());
     }
 
     public static Turma getTurma() {
-        return new Turma(PeridoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, DocenteTest.getDocente());
+        return new Turma(PeriodoLetivoTest.getPeriodoLetivo(), cargaHoraria, horario, DocenteTest.getDocente());
     }
 }

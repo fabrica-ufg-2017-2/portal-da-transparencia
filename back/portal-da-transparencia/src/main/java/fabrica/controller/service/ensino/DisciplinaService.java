@@ -5,7 +5,7 @@ import fabrica.controller.dto.ensino.PeriodoLetivoDTO;
 import fabrica.model.dao.TransacaoHibernate;
 import fabrica.model.dao.ensino.DisciplinaDAO;
 import fabrica.model.domain.ensino.Disciplina;
-import fabrica.model.domain.ensino.PeridoLetivo;
+import fabrica.model.domain.ensino.PeriodoLetivo;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -20,10 +20,10 @@ public class DisciplinaService {
     private DisciplinaDAO disciplinaDAO = new DisciplinaDAO(new TransacaoHibernate(), Disciplina.class);
 
     public Collection<DisciplinaDTO> disciplinasPeriodoLetivo(PeriodoLetivoDTO periodoLetivoDTO) {
-        PeridoLetivo peridoLetivo = new PeridoLetivo(periodoLetivoDTO.getDataInicio(), periodoLetivoDTO.getDataFim());
+        PeriodoLetivo periodoLetivo = new PeriodoLetivo(periodoLetivoDTO.getDataInicio(), periodoLetivoDTO.getDataFim());
         return disciplinaDAO.buscarTodos()
                             .stream()
-                            .filter(a -> a.getTurmas().stream().filter(b -> b.getPeridoLetivo().equals(peridoLetivo)).count() > 0)
+                            .filter(a -> a.getTurmas().stream().filter(b -> b.getPeriodoLetivo().equals(periodoLetivo)).count() > 0)
                             .map(DisciplinaDTO::converterDominio)
                             .collect(Collectors.toList());
     }

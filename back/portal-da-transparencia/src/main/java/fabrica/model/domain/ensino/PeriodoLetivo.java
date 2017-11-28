@@ -12,11 +12,11 @@ import static fabrica.util.UtilValidacao.*;
  * @author gabriel
  * @version 1.0.0
  *
- * PeridoLetivo
+ * PeriodoLetivo
  */
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class PeridoLetivo extends Entidade {
+public class PeriodoLetivo extends Entidade {
 
     @Column
     @Temporal(TemporalType.DATE)
@@ -26,7 +26,7 @@ public class PeridoLetivo extends Entidade {
     @Temporal(TemporalType.DATE)
     private Date dataFim;
 
-    public PeridoLetivo() {
+    public PeriodoLetivo() {
     }
 
     /**
@@ -34,7 +34,7 @@ public class PeridoLetivo extends Entidade {
      * @param dataInicio - Data de ínicio do período letivo.
      * @param dataFim - Data fim do período letivo.
      */
-    public PeridoLetivo(Date dataInicio, Date dataFim) {
+    public PeriodoLetivo(Date dataInicio, Date dataFim) {
         this.dataInicio = valida(dataInicio, (dt) -> { return dt != null;}, () -> {
            throw new ExcecaoNegocio(10, "Período Letivo data ínicio",
                                 "Data ínicio nula, inválida para cadastro período letivo.");

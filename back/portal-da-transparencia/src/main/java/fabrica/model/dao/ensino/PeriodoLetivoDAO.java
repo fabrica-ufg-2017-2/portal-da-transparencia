@@ -2,13 +2,13 @@ package fabrica.model.dao.ensino;
 
 import fabrica.model.dao.GenericDAO;
 import fabrica.model.dao.ProvedorTransacao;
-import fabrica.model.domain.ensino.PeridoLetivo;
+import fabrica.model.domain.ensino.PeriodoLetivo;
 
 /**
  * @author gabriel
  * @version 1.0.0
  */
-public class PeridoLetivoDAO extends GenericDAO<PeridoLetivo, Long> {
+public class PeriodoLetivoDAO extends GenericDAO<PeriodoLetivo, Long> {
 
     /**
      *
@@ -17,7 +17,7 @@ public class PeridoLetivoDAO extends GenericDAO<PeridoLetivo, Long> {
      * @param clazz
      *            - Class da entidade.
      */
-    public PeridoLetivoDAO(ProvedorTransacao transacao, Class<PeridoLetivo> clazz) {
+    public PeriodoLetivoDAO(ProvedorTransacao transacao, Class<PeriodoLetivo> clazz) {
         super(transacao, clazz);
     }
 }
