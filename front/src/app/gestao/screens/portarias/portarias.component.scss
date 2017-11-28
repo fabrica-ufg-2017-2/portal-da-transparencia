@@ -1,0 +1,16 @@
+.screen {
+  position: relative;
+  padding-left: 210px;
+  min-height: calc(100vh - 227px);
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (max-width: 992px) {
+  .screen {
+    padding-left: 30px;
+  }
+}
