@@ -19,3 +19,19 @@
   [Drive](https://drive.google.com/open?id=0B7jMzvpjqKobX0FBS0FTZzdrdEE) - Processos
   
   [Issues](https://github.com/fabrica-ufg-2017-2/portal-da-transparencia/issues) - Tarefas
+  
+  [SwaggerHub](https://swaggerhub.com/) - Documentação da API
+  
+## Artefatos Gerados
+
+* [Visão de Comunicação - API Documentada](https://swaggerhub.com/apis/inf-fs/portal-transparencia/1.0.0)
+  * **Responsáveis:**
+    * Extensão - [Rony Nogueira](https://github.com/ronynogueiras)
+    * Pesquisa - [Pedro Victor](https://github.com/pedlop)
+    * Gestão - [Eduardo Horst](https://github.com/Eddyosos)
+    * Ensino - [Lucas Vinicios](https://github.com/lucasviniciosfs)
+    
+* [Arquitetura de Pacotes](https://drive.google.com/drive/folders/0B7jMzvpjqKobd2VwUU50YlRDdGs)
+  * **Responsáveis:**
+    * Back-End - [Gabriel Barbosa](https://github.com/gabrielbo1)
+    * Front-End - [Pedro Victor](https://github.com/pedlop) e [Raphael Ferreira](https://github.com/FerreiraRaphael)
