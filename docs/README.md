@@ -20,7 +20,7 @@
   
   [Issues](https://github.com/fabrica-ufg-2017-2/portal-da-transparencia/issues) - Tarefas
   
-  [SwaggerHub](https://swaggerhub.com/) - Documentação da API
+  [SwaggerHub](https://app.swaggerhub.com/apis/inf-fs/portal-transparencia/1.0.0#/Gestão/ges_01_get) - Documentação da API
   
 ## Artefatos Gerados
 
